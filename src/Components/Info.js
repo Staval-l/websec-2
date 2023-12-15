@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import ListGroup from 'react-bootstrap/ListGroup';
 
-import PredictionForTransport from './PredictionComponent';
+import PredictionForTransport from './Prediction';
 
 
 const InfoComponent = ({selectedStop}) => {

@@ -7,10 +7,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import { LinkContainer } from "react-router-bootstrap";
 
 
-import MapComponent from "./MapComponent"
-import SearchComponent from "./SearchComponent";
-import InfoComponent from "./InfoComponent";
-import FavouriteStopsComponent from "./FavouriteStopsComponent";
+import MapComponent from "./Components/Map"
+import SearchComponent from "./Components/Search";
+import InfoComponent from "./Components/Info";
+import FavouriteStopsComponent from "./Components/FavouriteStops";
 
 import axios from 'axios';
 

@@ -4,7 +4,7 @@ import L from "leaflet";
 
 import 'leaflet/dist/leaflet.css';
 
-import StopComponent from './StopComponent.js';
+import StopComponent from './Stop.js';
 
 const center = [53.211967, 50.177502];
 

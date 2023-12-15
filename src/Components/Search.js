@@ -38,7 +38,7 @@ const SearchComponent = ({stops, handleStopSelect}) => {
    }
     setInput();
     setFilteredStops([]);
-    navigate("/map");
+    navigate("/info");
    
   }
 
