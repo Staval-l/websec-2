@@ -57,7 +57,7 @@ export default function App() {
 
 
   if (loading) return <div>Please wait</div>;
-  
+
   return (
     <>  
 
@@ -66,7 +66,7 @@ export default function App() {
           <Navbar.Brand className="fw-bold text-muted">Transport forecast</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Collapse className="justify-content-left">
           <Nav activeKey={window.location.pathname}>
             <LinkContainer to="/map">
               <Nav.Link>Map</Nav.Link>

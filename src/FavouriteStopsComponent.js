@@ -25,11 +25,11 @@ const FavouriteStopsComponent = ({favouriteStops, removeFavouriteStop, handleSto
                         {stop["title"]}
 
                         <Button 
-                            variant="primary"
+                            variant="info"
                             size="sm"
                             onClick={() => {
                                 handleStopSelect(stop);
-                                navigate("/map");
+                                navigate("/info");
                             }}
                             style={{ marginLeft: '20px' }}
                         >
@@ -37,7 +37,7 @@ const FavouriteStopsComponent = ({favouriteStops, removeFavouriteStop, handleSto
                         </Button>
 
                         <Button 
-                            variant="danger"
+                            variant="dark"
                             size="sm"
                             onClick={() => removeFavouriteStop(stop)}
                             style={{ marginLeft: '20px' }}
