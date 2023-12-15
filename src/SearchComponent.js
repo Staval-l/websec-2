@@ -16,7 +16,7 @@ const SearchComponent = ({stops, handleStopSelect}) => {
     setInput(e.target.value);
     setFilteredStops(
       stops.filter((stop) =>
-        stop.title.toLowerCase().includes(e.target.value.toLowerCase())
+        stop.title.toLowerCase().includes(e.target.value.toLowerCase().trim())
       )
     );
   };
